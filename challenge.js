@@ -5,10 +5,7 @@ const likeButton = document.getElementById('<3');
 const likesList = document.querySelector('ul.likes');
 const pauseButton = document.getElementById('pause');
 const commentForm = document.getElementById('comment-form');
-
 const commentList = document.getElementById('list');
-
-
 let paused = false;
 
 const increment = () => counter.innerHTML = parseInt(counter.innerHTML) + 1;
